@@ -360,7 +360,7 @@
   width: 600px;
   height: 0;
   overflow: scroll;
-  background-color: #000;
+  background-color: #292929;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
   -o-transition: height .5s;
