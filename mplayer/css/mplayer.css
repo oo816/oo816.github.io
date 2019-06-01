@@ -47,8 +47,8 @@
 }
 /* line 47, mplayer.less */
 .mp {
-  width: 600px;
-  height: 381px;
+  width: 100%;
+  height: 35%;
   position:fixed;
             left:0;
             bottom:0px;
@@ -99,9 +99,10 @@
 /* line 83, mplayer.less */
 .mp .mp-lrc-box {
 
-  position: absolute;
-  bottom: 410px;
-
+  position: fixed;
+  height: 50%;
+  bottom:38%;
+  width: 100%;
   right:0;
   background-color: #292929;
   border-radius: 0px 0px 0px 0px;
@@ -122,8 +123,8 @@
 }
 /* line 103, mplayer.less */
 .mp .mp-lrc {
-  width: 600px;
-  height: 500px;
+
+  height: 100%;
   font-size: 24px;
   overflow: scroll;
   color: #808080;
@@ -183,12 +184,12 @@
 }
 /* line 155, mplayer.less */
 .mp .mp-pro {
-  width: 600px;
-  height: 30px;
+  width: 100%;
+  height: 3%;
   background-color: #1e1e1e;
 
-  position: absolute;
-  bottom: 380px;
+  position: fixed;
+  bottom:35%;
   right: 0px;
   cursor: pointer;
 }
@@ -354,10 +355,10 @@
 
 /* line 309, mplayer.less */
 .mp .mp-list-box {
-  position: absolute;
-  bottom: 410px;
+  position: fixed;
+  bottom: 38%;
   left: 0;
-  width: 600px;
+  width: 100%;
   height: 0;
   overflow: scroll;
   background-color: #292929;
@@ -368,7 +369,7 @@
 }
 /* line 321, mplayer.less */
 .mp .mp-list-box.mp-list-show {
-  height: 533px;
+  height: 62%;
 }
 /* line 325, mplayer.less */
 .mp .mp-list-title {
