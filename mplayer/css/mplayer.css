@@ -64,7 +64,8 @@
   transition: left .5s;
 }
 /* line 59, mplayer.less */
-.mp.mp-show {
+.mp.mp-
+{
   left: 0;
 }
 /* line 61, mplayer.less */
@@ -377,7 +378,7 @@
 }
 /* line 321, mplayer.less */
 .mp .mp-list-box.mp-list-show {
-  height: 55%;
+  height: 58%;
 }
 /* line 325, mplayer.less */
 .mp .mp-list-title {
