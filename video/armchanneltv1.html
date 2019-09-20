@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArmChannelTV</title>
+
+<!--可无视-->
+
+<link href="C:\Users\xoxhe\Desktop\video\bootstrap.min.css" rel="stylesheet">
+
+<!--可无视-->
+<!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!--主要样式-->
+<style type="text/css">
+body{background-color: #222}
+.videolist { position:relative; float:left; width:200px; height:115px; margin-left:56px; margin-top:15px; margin-bottom:50px; }
+.videolist2 { position:relative; float:left; width:800px; height:115px; margin-left:56px; margin-top:30px; margin-bottom:0px; }
+.videolist:hover{ cursor: pointer; }
+.videoed { display:none; width:200px; height:115px; position: absolute; left:0%; top:13%; z-index:99; border-radius:14px; }
+.videos{ display:none; border: 0px solid #080808; position:fixed; left:50%; top:50%; margin-left:-640px; margin-top:-360px; z-index:100; width:1280px; height:720px;}
+.vclose { position:absolute;right:-3%; top:0%; border-radius:0%; cursor: pointer;-webkit-tap-highlight-color:transparent; }
+.vtime{color: #fff;}
+.vtit{color: #fff;margin-left: 0px;}
+
+</style>
+
+
+
+   <script type="text/javascript">
+try {
+var urlhash = window.location.hash;
+if (!urlhash.match("fromapp"))
+{
+if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)))
+{
+window.location="https://oo816.github.io/video/armchanneltv2"; //这里的网址请改为你手机站的址
+}
+}
+}
+catch(err)
+{
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+		body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: #fff;
+        }
+</style>
+
+
+
+
+<style type="text/css">
+
+    .image1{
+        margin-top: 100px;
+        width:200px;
+        height:200px;
+        border-radius:200px;
+    }
+
+    .image2{
+		margin-top: 15px;
+		margin-bottom: 15px;
+        width:200px;
+        height:115px;
+        border-radius:15px;
+
+    }
+    .image3{
+        margin-top: 0px;
+		margin-left: 50px;
+        width:300px;
+        height:43px;
+        border-radius:15px;
+    }
+    </style>
+
+
+
+
+
+<style type="text/css">
+
+
+
+
+.video{
+-moz-user-select:none;/*火狐*/
+-webkit-user-select:none;/*webkit浏览器*/
+-ms-user-select:none;/*IE10*/
+-khtml-user-select:none;/*早期浏览器*/
+user-select:none;
+}
+</style>
+
+
+
+
+</head>
+<body>
+
+<div class="video">
+	<div class="container" style="margin-top: 200px">
+		<div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/9154d55286dbb431a15ab28bba498e26.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXRfPg.png" width="400px" height="225px" />
+            <div class="vtit">《請勿超越黃線》第一季</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+		<div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/010e3fea27bab1fef4203c4f1820fc2c.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWuLt.png" width="400px" height="225px" />
+            <div class="vtit">《請勿超越黃線》第一季主題曲</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/0456e87e12ad43a03d207b4212b7f8b6.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXHrYq.png" width="400px" height="225px" />
+            <div class="vtit">《請勿超越黃線》第二季</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/d0a3543e7cfaeff09d81bf0b9d2815ae.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWMeP.png" width="400px" height="225px" />
+            <div class="vtit">《請勿超越黃線》第二季主題曲</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+		
+        
+        
+        
+        
+ 	  <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/0e08011137ffbe0bae556c46189becb8.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nvgdoT.png" width="400px" height="225px" />
+            <div class="vtit">《分叉的感情線》最終章</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/0bea9ad0a82a47f9384f07f1e42ead27.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nvgBYF.png" width="400px" height="225px" />
+            <div class="vtit">單身總是有原因</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/2549b3555aa002a9aa47901418025baa.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nvgawV.png" width="400px" height="225px" />
+            <div class="vtit">成年後的一杯酒時間</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/ab2ef2ab135ffd64938f06a63287ff6b.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nvg0FU.png" width="400px" height="225px" />
+            <div class="vtit">誰人又願意相信</div>
+			<img src="img/play.png" class="videoed">
+		</div>       
+        
+        
+        
+        
+        
+	  <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/d48e8418b4ca82ee2653a379674d625d.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWPZ6.png" width="400px" height="225px" />
+            <div class="vtit">紀念日，快樂不？</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/dcb602c55d396a5c46abb585c42a859f.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWmQA.png" width="400px" height="225px" />
+            <div class="vtit">聖誕的約定</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/ecfc84668b38b6a135e6b99019acaf71.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWVRH.png" width="400px" height="225px" />
+            <div class="vtit">男人一定會偷食</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/22ede2363a5e3b6c38772115d9601567.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWZzd.png" width="400px" height="225px" />
+            <div class="vtit">偷喝咖啡的女生</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+        
+        
+
+        <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/fd7878358938d03074dfda134bfb825f.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXhxzQ.png" width="400px" height="225px" />
+			<img src="img/play.png" class="videoed">
+		</div>
+
+			
+            <div class="videolist2">
+            <table width="500" border="0">
+  <tr>
+    <td colspan="2"><h4>【微電影】每日上映 (一氣呵成版)</h4></td>
+    </tr>
+  <tr>
+    <td>瀝源與和禾輋之間<a style="color:#376fee">(00:00:00-00:20:48)</a></td>
+    <td>不想結婚的男人<a style="color:#376fee">(00:20:48-00:44:32)</a></td>
+  </tr>
+  <tr>
+    <td>十年戀事飛鵝山<a style="color:#376fee">(00:44:32-01:12:52)</a></td>
+    <td>教你分手的朋友<a style="color:#376fee">(01:12:52-01:36:47)</a></td>
+  </tr>
+  <tr>
+    <td>彩蛋<a style="color:#376fee">(01:37:17-01:43:52)</a></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+  </div>
+    </div>
+<div class="video">
+	<div class="container" style="margin-top: 0px">
+ 		<div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/081fd16897c32a798da81115082e57ec.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXW8Jg.png" width="400px" height="225px" />
+            <div class="vtit">致我曾深愛的那個你</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+		<div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/19ee510bc8ea541dc7eab45234212cb9.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXRxz9.png" width="400px" height="225px" />
+            <div class="vtit">不一樣的星期五</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/4b50ed4f54f7a1195dd73ca5216189a1.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWQdf.png" width="400px" height="225px" />
+            <div class="vtit">住你附近的閨蜜</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/b2e2b52c5aecfa253c182bb000e2a42d.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXW3FS.png" width="400px" height="225px" />
+            <div class="vtit">最熟悉的陌生人</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+		
+        
+        
+	  <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/07d53ee1d172475ab405b340d35fee81.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWFIO.png" width="400px" height="225px" />
+            <div class="vtit">我們說好了</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/807fb31fffda69972e0c87c3eba7a4eb.H_25_4.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWSMR.png" width="400px" height="225px" />
+            <div class="vtit">返工為乜？</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/ea66b38862737aae126d80c951dcc4bc.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXW9qx.png" width="400px" height="225px" />
+            <div class="vtit">根本岸久</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/f4ac2b79836a91697b7e929a3b7c9f6b.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWAiD.png" width="400px" height="225px" />
+            <div class="vtit">男人的29+1</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+		
+        
+        
+	  <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/0009d8a97e9e927b46f23308a3c94bc0.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWidK.png" width="400px" height="225px" />
+            <div class="vtit">兄弟，辛苦了</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://s2.ax1x.com/2019/09/20/nXWEJe.png；https://qiniu-nc.clewm.net/free/67b3cd13ff45dd2318a6c1ddb2665d6a.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWEJe.png" width="400px" height="225px" />
+            <div class="vtit">兄弟？女朋友？邊個重要啲？</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+      <div class="videolist" vpath="v1.jpg" ipath="https://qiniu-nc.clewm.net/free/efbc70a741d73eceb067304fa7c358dc.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXWps1.png" width="400px" height="225px" />
+            <div class="vtit">突如其來的愛情</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+	  <div class="videolist" vpath="v2.jpg" ipath="https://qiniu-nc.clewm.net/free/3f3c516c4bd421e578192eb9d6d18bfb.H_57_5.mp4">
+			<img class="image2" src="https://s2.ax1x.com/2019/09/20/nXRvRJ.png" width="400px" height="225px" />
+            <div class="vtit">見家長總是悶</div>
+			<img src="img/play.png" class="videoed">
+		</div>
+        
+        	
+  </div>
+        
+        
+        
+        
+        
+		<div class="videos"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$('.videolist').each(function(){ //遍历视频列表
+	$(this).hover(function(){ //鼠标移上来后显示播放按钮
+		$(this).find('.videoed').show();
+	},function(){
+		$(this).find('.videoed').hide();
+	});
+	$(this).click(function(){ //这个视频被点击后执行
+		var img = $(this).attr('vpath');//获取视频预览图
+		var video = $(this).attr('ipath');//获取视频路径
+		$('.videos').html("<video id=\"video\" poster='"+img+"' style='width: 1280px;outline:none;' src='"+video+"' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"img/gb.png\" width=\"25\" height=\"25\">");
+		$('.videos').show();
+	});
+});
+
+function close1(){
+	var v = document.getElementById('video');//获取视频节点
+	$('.videos').hide();//点击关闭按钮关闭暂停视频
+	v.pause();
+	$('.videos').html();
+}
+</script>
+
+</body>
+</html>
