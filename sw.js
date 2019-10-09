@@ -13,7 +13,6 @@ const CACHE_NAMESPACE = 'main-'
 
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
-  "./",
   "./bookmarks/SmoothScroll.min.js",
   "./bookmarks/bootstrap.js",  
   "./bookmarks/easing.js",   
